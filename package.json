@@ -1,0 +1,17 @@
+{
+  "name": "0xsolidity",
+  "version": "1.0.0",
+  "description": "We talmbout Practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Words"
+  ],
+  "author": "Geller Micael",
+  "license": "ISC",
+  "devDependencies": {
+    "hardhat": "^2.9.9"
+  }
+}
