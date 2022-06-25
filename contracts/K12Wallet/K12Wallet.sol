@@ -74,12 +74,6 @@ contract K12Wallet {
              true;
         }
 
-        function withDrawFunds (address payable receiver) public {
-            require(msg.sender == owner, "Funds can only be withdrawn by contract owner");
-            receiver.transfer(address(this).balance);
-
-        }
-
         function getWalletBalance () public view returns (uint) {
             return address(this).balance;
         }
